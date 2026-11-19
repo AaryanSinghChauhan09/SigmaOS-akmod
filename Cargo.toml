@@ -1,8 +1,15 @@
 [package]
-name = "sigmaos_akmod"
+name = "SigmaOS-akmod"
 version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_akmod component"
 
 [lib]
 name = "sigmaos_akmod"
 path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
